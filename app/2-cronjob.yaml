@@ -11,6 +11,7 @@ spec:
     spec:
       template:
         spec:
+          restartPolicy: OnFailure
           containers:
             - name: renovate
               image: renovate/renovate:41.135
