@@ -9,4 +9,5 @@ namespace: renovate
 
 resources:
   - 1-namespace.yaml
-  - 2-cronjob.yaml
+  - 2-external-secrets.yaml
+  - 3-cronjob.yaml
