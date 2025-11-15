@@ -17,7 +17,7 @@ spec:
               image: renovate/renovate:41.135
               env:
                 - name: RENOVATE_KUBERNETES
-                  value: '{"fileMatch":["app/.*\\.ya?ml$"]}'
+                  value: '{"fileMatch":["\\.yaml$"]}'
                 - name: LOG_LEVEL
                   value: debug
               envFrom:
