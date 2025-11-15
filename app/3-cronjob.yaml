@@ -16,11 +16,6 @@ spec:
             - name: renovate
               image: renovate/renovate:41.135
               env:
-                - name: RENOVATE_KUBERNETES
-                  value: |
-                    {
-                      "managerFilePatterns": ["^app/"]
-                    }
                 - name: LOG_LEVEL
                   value: debug
               envFrom:
